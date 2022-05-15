@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital@1&display=swap");
+
+.App {
+  width: 320px;
+  height: 600px;
+  overflow-y: hidden;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Cousine", monospace;
+}
+i {
+  font-style: normal;
+}
+
+#tabbar {
+  font-size: 80%;
+  width: 320px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
